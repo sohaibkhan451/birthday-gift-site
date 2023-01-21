@@ -1,0 +1,97 @@
+body{
+    background: linear-gradient(#a2d2ff, #efb0c9);
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background-color: #a2d2ff;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+#son{
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #efb0c9;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 1px black;
+
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bday-age {
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin: 5px 0px 5px 0px;
+}
+
+.bday-date {
+    margin: 0px;
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.gift-hint{
+    margin-top: opx;
+}
+.gift-title{
+    margin-bottom: 10px;
+}
+.gift-section{
+    margin-top: 50px;
+
+
+}
+.gift-img{
+    margin: 0px auto;
+    width: 400px;
+    height: 220px;
+    border:6px solid white;
+    border-radius: 10px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVJdQYOaZIrDLVRNTvAbrJJzOUvmTFC08IKw&usqp=CAU");
+    background-size:contain;
+
+    /*background: linear-gradient(lightskyblue , white);*/
+
+    
+
+
+
+}
+#gift-img-happy:hover{
+    background-image: url("https://www.system-concepts.com/wp-content/uploads/2020/02/excited-minions-gif.gif");
+    background-size: contain;
+}
+#gift-img-hot:hover{
+    background-image: url("https://i.gifer.com/3Pq0.gif");
+    background-size: contain;
+}
+#gift-img-genious:hover{
+    background-image: url("https://i.pinimg.com/originals/f9/f9/89/f9f9895b95ebc61cb3dca57dc1fdd202.gif");
+    background-size: contain;
+}
+#gift-img-good:hover{
+    background-image: url("https://i.pinimg.com/originals/eb/1e/b9/eb1eb92e7ca653e141296e8d2d34bd0e.gif");
+    background-size: contain;
+}
+#gift-img-friend:hover{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxGMOZw3kHIsBA-KkfAzHuW6sO9Oo74lfSRwMy03dnYRE6Te9dcykL0ewndYhi1hnCPsk&usqp=CAU");
+    background-size: contain;
+}
+#footer{
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+a{
+    color: white;
+}
